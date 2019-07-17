@@ -7,9 +7,9 @@ namespace TryCatch
     {
         public Dictionary<string, Contact> contacts = new Dictionary<string, Contact>();
 
-        public void AddContact(Contact name)
+        public void AddContact(Contact contact)
         {
-            contacts.Add(name.Email, name);
+            contacts.Add(contact.Email, contact);
 
         }
 
